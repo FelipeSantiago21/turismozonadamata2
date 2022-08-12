@@ -13,3 +13,10 @@ function nextImage(){
     }
     document.getElementById("radio"+count).checked = true;
 }
+<label >First name:</label><br>
+<input type="text" id="nome" ><br>
+<input type= “number” id= “idade” ><br>
+<input type= “email” id=”email_user”><br>
+<input type="date"><br>
+<input type= “password” id=”senha” ><br>
+<button onclick="teste()">Enviar</button>
